@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.test.pacman;
+
+message Request {
+  optional int32 inputMsg = 1;
+  repeated int32 CurrentPosition = 2;
+}
+message Response {
+  optional int32 responseMsg = 1;
+  repeated int32 PositionMsg = 2;
+  optional float SpeedMsg = 3;
+  repeated int32 LevelSizeMsg = 4;
+  repeated int32 WallMsgX = 5;
+  repeated int32 WallMsgY = 6;
+}

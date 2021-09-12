@@ -1,0 +1,1 @@
+java -jar com.test.pacman.jar
